@@ -1,75 +1,46 @@
-* {
-    box-sizing: border-box;
+div {
+    outline: 2px solid red;
 }
-.header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    background-color: palevioletred;
-    padding:8px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  li a:hover{
-        background-color: #b84da6;
-  }
 .logo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
+.nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+.nav a:hover {
+    background-color: grey;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style-type: none;
+}
+li {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
 .parent {
     display: flex;
-}
-.body {
-    background-color: pink;
-
-}
-.caerleon {
-    width: 300px;
-    height: 200px;
-}
-h2 {
-    text-align: center;
-}
-.info {
-    background-color: red;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 11px;
+    justify-content: center;
 }
-.info img {
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.quote {
-    background-color: orange;
-}
-.signup {
-    background-color: yellow;
+
+.caerleon {
+    width: 350px;
+    height: 250px
 }
