@@ -1,17 +1,25 @@
-div {
-    outline: 2px solid red;
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: pink;
 }
 .logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+   width: 100px;
 }
 .nav {
-    position: relative;
+    border: 1px solid red;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    height: 100px;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px 15px;
+    opacity: 0.7;
 }
 .nav a:hover {
     background-color: grey;
@@ -27,20 +35,5 @@ li {
     text-align: center;
     justify-content: space-between;
 }
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    padding: 5px 15px;
-    opacity: 0.7;
-}
-.parent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* nav-bar end */
 
-.caerleon {
-    width: 350px;
-    height: 250px
-}
