@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+main, section, header, footer {
+    border: 1px solid red;
+}
 header {
     background-color: pink;
 }
@@ -36,4 +39,31 @@ li {
     justify-content: space-between;
 }
 /* nav-bar end */
+
+
+section {
+    background-color: pink;
+}
+
+/* hero section */
+
+.hs-parent {
+    display: flex;
+    gap: 2rem;
+    padding-block: 70px;
+    max-width: 1280px;
+}
+.hs-left h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.hs-right img {
+    width: 75%;
+}
+button {
+    background-color: #3882f6;
+    font-size: 14px;
+    border-radius: 10px;
+    color: white;
+}
 
