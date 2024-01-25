@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 .header {
     background-color: #1f2937;
@@ -49,7 +48,8 @@ li:hover {
 }
 .hs-left h2 {
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: bolder;
     padding: 10px 0;
 }
 .hs-left p {
@@ -106,19 +106,34 @@ li:hover {
     text-align: center;
 }
 .quote-section {
-    max-height: 600px;
     background-color: #e5e7eb;
-    padding: 25px;
+    padding: 5em;
+    padding: 30px;
 }
 .quote-text {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
     line-height: 1.5;
-    margin: 0;
 }
 .quote-text--cite {
     font-weight: 900;
     text-align: right;
     font-style: normal;
 }
+.cta {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-text {
+    padding: 1em 2em;
+}
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8  ;
+    padding-block: 20px;
+}
+
