@@ -85,6 +85,8 @@ li:hover {
     justify-content: space-evenly;
     background-color: white;
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .box img {
@@ -101,4 +103,22 @@ li:hover {
 }
 .box span {
     display: block;
+    text-align: center;
+}
+.quote-section {
+    max-height: 600px;
+    background-color: #e5e7eb;
+    padding: 25px;
+}
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    line-height: 1.5;
+    margin: 0;
+}
+.quote-text--cite {
+    font-weight: 900;
+    text-align: right;
+    font-style: normal;
 }
